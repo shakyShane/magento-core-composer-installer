@@ -142,7 +142,7 @@ This one requires a little more explanation. Generating a `.gitignore` for every
 10,000 lines. On investigation this seems to slow git commands like `git status` down quite a bit. Some issues  were taking
 up to 14 seconds for me. 
 
-In order to combat this, any files which are in a default set of folders, will not be added to the `.gitinogre`, instead
+In order to combat this, any files which are in a default set of folders, will not be added to the `.gitignore`, instead
 only the folder will, this greatly reduces the size of the `.gitignore`. The list of folders which are ignored by default can be 
 found here: 
 
